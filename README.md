@@ -22,6 +22,7 @@
 | Chocolates | $11.00 a $100.00 |
 | Flores | $101.00 a $250.00 |
 | Anillo | Más de $251.00 |
+
 Se requiere un diagrama de flujo con el algoritmo que ayude a de terminar qué regalo se le puede comprar a ese ser tan especial por el día del amor y la amistad.
   - 3.4 El dueño de un estacionamiento requiere un diagrama de flujo con el algoritmo que le permita determinar cuánto debe cobrar por el uso del estacionamiento a sus clientes. Las tarifas que se tienen son las siguientes:
     - Las dos primeras horas a $5.00 c/u.

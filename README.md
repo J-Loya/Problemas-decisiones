@@ -16,6 +16,7 @@
   - 3.1 Realice un algoritmo para determinar si una persona puede votar con base en su edad en las próximas elecciones. Construya el diagrama de flujo, el pseudocódigo y el diagrama N/S.
   - 3.2 Realice un algoritmo para determinar el sueldo semanal de un trabajador con base en las horas trabajadas y el pago por hora, considerando que después de las 40 horas cada hora se considera como excedente y se paga el doble. Construya el diagrama de flujo, el pseudocódigo y el diagrama N/S.
    - 3.3 El 14 de febrero una persona desea comprarle un regalo al ser querido que más aprecia en ese momento, su dilema radica en qué regalo puede hacerle, las alternativas que tiene son las siguientes:
+
 | Regalo | Costo |
 |--------|-------|
 | Tarjeta | $10.00 o menos |

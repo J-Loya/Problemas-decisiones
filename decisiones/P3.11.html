@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3.11 — Bono por antigüedad</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 3.11</p>
+      <h1 class="problem-title">Bono por antigüedad</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos del empleado</p>
+
+      <div class="field">
+        <label for="antiguedad">Antigüedad (años)</label>
+        <input type="number" id="antiguedad" min="0" step="1" placeholder="ej. 3" />
+        <p class="error-msg" id="errAntiguedad">Ingresa una antigüedad válida (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularBono()">Calcular bono</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Bono</span>
+          <span class="amount" id="resBono">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/P3.11.js"></script>
+</body>
+</html>

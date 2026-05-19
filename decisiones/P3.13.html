@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3.13 — Costo de viaje de estudios</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 3.13</p>
+      <h1 class="problem-title">Costo de viaje de estudios</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos del grupo</p>
+
+      <div class="field">
+        <label for="alumnos">Número de alumnos</label>
+        <input type="number" id="alumnos" min="1" step="1" placeholder="ej. 45" />
+        <p class="error-msg" id="errAlumnos">Ingresa un número válido (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="calcularCosto()">Calcular</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Cantidad de alumnos</span>
+          <span class="amount" id="resAlumnos">—</span>
+        </div>
+        <div class="result-total">
+          <span class="label">Tarifa por alumno</span>
+          <span class="amount" id="resTarifa">—</span>
+        </div>
+        <div class="result-total">
+          <span class="label">Costo total</span>
+          <span class="amount" id="resCostoTotal">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/P3.13.js"></script>
+</body>
+</html>

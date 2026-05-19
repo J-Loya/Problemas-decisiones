@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3.5 — Persona de menor edad</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="problem-header">
+      <p class="problem-number">Problema 3.5</p>
+      <h1 class="problem-title">Persona de menor edad</h1>
+    </header>
+
+    <div class="card">
+      <p class="card-title">Datos</p>
+
+      <div class="field">
+        <label for="nombre1">Nombre 1</label>
+        <input type="text" id="nombre1" placeholder="ej. Juan" />
+        <p class="error-msg" id="errNombre1">Ingresa un nombre válido.</p>
+      </div>
+
+      <div class="field">
+        <label for="edad1">Edad 1</label>
+        <input type="number" id="edad1" min="0" step="1" placeholder="ej. 25" />
+        <p class="error-msg" id="errEdad1">Ingresa una edad válida (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="nombre2">Nombre 2</label>
+        <input type="text" id="nombre2" placeholder="ej. María" />
+        <p class="error-msg" id="errNombre2">Ingresa un nombre válido.</p>
+      </div>
+
+      <div class="field">
+        <label for="edad2">Edad 2</label>
+        <input type="number" id="edad2" min="0" step="1" placeholder="ej. 30" />
+        <p class="error-msg" id="errEdad2">Ingresa una edad válida (> 0).</p>
+      </div>
+
+      <div class="field">
+        <label for="nombre3">Nombre 3</label>
+        <input type="text" id="nombre3" placeholder="ej. Carlos" />
+        <p class="error-msg" id="errNombre3">Ingresa un nombre válido.</p>
+      </div>
+
+      <div class="field">
+        <label for="edad3">Edad 3</label>
+        <input type="number" id="edad3" min="0" step="1" placeholder="ej. 22" />
+        <p class="error-msg" id="errEdad3">Ingresa una edad válida (> 0).</p>
+      </div>
+
+      <button class="btn-primary" onclick="encontrarMenor()">Buscar</button>
+
+      <div class="result-block" id="resultBlock">
+        <div class="result-total">
+          <span class="label">Menor edad</span>
+          <span class="amount" id="resPersona">—</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="../scripts/P3.5.js"></script>
+</body>
+</html>
